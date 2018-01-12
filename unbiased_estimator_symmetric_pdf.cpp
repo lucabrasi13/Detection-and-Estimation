@@ -67,6 +67,6 @@ int main()
 	A_hat = mean(A_hat_iteration);
 
 // Print the Estimated value
-	cout << "The Estimated DC value is \t" << double(A_hat) << endl; 			
+	cout << "The Estimated DC value is " << double(A_hat) << endl; 			
 	return 0;
 } 
