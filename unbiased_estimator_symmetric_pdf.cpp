@@ -57,7 +57,6 @@ int main()
 	{
 	// Add noise to the signal
 		x = A + Normal_RNG(mu,sigma)(N);
-		cout << "" << x << endl;
 	// Estimate the DC Value
 		A_hat_iteration[i] = mean(x);
 	}
