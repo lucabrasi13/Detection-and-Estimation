@@ -42,7 +42,7 @@ int main()
 
 // Define a few parameters for the simulation
 	// Define the number of iterations
-	int numIteration = 1;
+	int numIteration = 1000;
 	// Define the mean and variance of Noise
 	double mu = 0, sigma = 1;
 	// Define the Estimator vector used in the simulation
