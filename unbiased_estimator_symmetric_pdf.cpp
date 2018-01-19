@@ -10,9 +10,6 @@
 using namespace std;
 using namespace itpp;
 
-using std::cout;
-using std::endl;
-
 int writeITfile(vec a)
 {
 // Function to write it to a .it file to plot using Matlab or Octave for convenience	
