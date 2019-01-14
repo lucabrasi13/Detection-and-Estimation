@@ -91,7 +91,7 @@ Ihat,Qhat = bandpass_to_baseband(sbp,w0,t)
 Fc = (w0/(2*np.pi))/(1/Ts)
 IhatL,QhatL = LPF(Fc,Ihat,Qhat)
 
-## Plot the results
+##----------------------------------- Plot the results ---------------------------------##
 plt.figure()
 plt.plot(t,np.real(y),'b-',label='I component')
 plt.plot(t,np.imag(y),'g--',label='Q component')
@@ -122,15 +122,3 @@ plt.subplot(2,2,4)
 plt.plot(t,QhatL,'g-')
 plt.grid(True)
 plt.show()
-
-
-
-
-
-
-
-
-
-
-
-
